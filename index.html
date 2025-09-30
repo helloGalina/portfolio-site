@@ -1,0 +1,202 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>GG | Guides & Graphics</title>
+    <meta
+      name="description"
+      content="GG | Guides & Graphics – Портфолио фронтенд-разработчика Гали Герасимовой: адаптивная верстка, анимации, интерактивные формы и креативный дизайн."
+    />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="favicon_io/favicon.ico" type="image/x-icon" />
+  </head>
+  <body>
+    <div id="cursor-follower"></div>
+    <header class="site-header">
+  <nav class="nav">
+    <h1 class="logo">GG | Guides & Graphics</h1>
+    <ul>
+      <li><a href="#hero">Главная</a></li>
+      <li><a href="#about-skills">Обо мне</a></li>
+      <li><a href="#skills">Навыки</a></li>
+      <li><a href="#portfolio">Портфолио</a></li>
+      <li><a href="#contacts">Контакты</a></li>
+    </ul>
+  </nav>
+</header>
+
+    <main>
+      <!-- HERO -->
+      <section id="hero" class="section highlight hero">
+        <img
+          src="img/2025-09-11 11.03.04.jpg"
+          alt="Галя Герасимова"
+          class="portrait-hero"
+        />
+        <div class="hero-content">
+          <h1>Галя Герасимова</h1>
+          <h2>Frontend-разработчик</h2>
+          <p>Создаю адаптивные веб-интерфейсы с HTML, CSS и JavaScript.</p>
+          <p class="cta-row">
+            <a class="btn primary" href="#contacts">Связаться</a>
+            <a class="btn btn-orange" href="#portfolio">Портфолио</a>
+          </p>
+        </div>
+      </section>
+
+      <!-- ОБО МНЕ + НАВЫКИ + ВИДЕО -->
+      <section id="about-skills" class="section about-skills">
+        <div class="container two-col">
+                  <div class="about-container">
+          <div class="about-text">
+            <h2>Мой путь</h2>
+            <p>
+              Моя история началась в PR в госсекторе – там я
+              научилась слышать людей и понимать их потребности. Опыт
+              тестировщика научил вниманию к деталям и поиску скрытого. Этот путь
+              привел меня во фронтенд, где я соединяю код и визуальный образ в
+              одно целое. Для меня важно пройти весь процесс — от замысла до
+              момента, когда сайт начинает жить.
+            </p>
+            <h3>Технологии и подходы</h3>
+            <ul class="skills-list">
+              <li>
+                <span>Адаптивная верстка</span> — сайты, одинаково красивые на
+                любых устройствах с CSS Grid и Flex.
+              </li>
+              <li>
+                <span>Интерактивные элементы</span> — кнопки, формы, анимации
+                для живого интерфейса.
+              </li>
+              <li>
+                <span>UI/UX дизайн</span> — минималистичные и понятные
+                интерфейсы, продуманные прототипы и логика взаимодействия.
+              </li>
+            </ul>
+          </div>
+          <div class="about-video">
+            <video controls class="video">
+              <source
+                src="media/vecteezy_digital-grid-over-the-earth-sunrise-internet-connection-by_28763846.mp4"
+                type="video/mp4"
+              />
+              Ваш браузер не поддерживает видео.
+            </video>
+          </div>
+        </div>
+        </div>
+      </section>
+
+      <!-- СКИЛЛЫ -->
+      <section id="skills" class="section highlight">
+        <div class="container">
+          <h2>Стек</h2>
+        <div class="skills-grid">
+          <div class="skill-item">HTML/CSS</div>
+          <div class="skill-item">JavaScript</div>
+          <div class="skill-item">React</div>
+          <div class="skill-item">Figma</div>
+          <div class="skill-item">GitHub</div>
+        </div>
+        </div>
+      </section>
+
+      <!-- ПОРТФОЛИО -->
+      <section id="portfolio" class="section highlight">
+        <div class="container">
+          <h2>Портфолио</h2>
+        <div class="portfolio-grid">
+          <div class="portfolio-item">
+            <img src="img/project1.jpg" alt="Мини-проект: Остаться в живых" />
+            <h4>Мини-проект: Остаться в живых</h4>
+            <p>HTML, CSS, адаптивный дизайн</p>
+            <a
+              href="https://drive.google.com/drive/folders/1D6-hEJKQX-VKR96Yxo4WnKGSpW70jqH5?usp=drive_link"
+              target="_blank"
+              class="btn btn-orange"
+              >Смотреть</a
+            >
+          </div>
+          <div class="portfolio-item">
+            <img src="img/project2.jpg" alt="Сайт-визитка QA-engineer" />
+            <h4>Сайт-визитка для QA-engineer</h4>
+            <p>HTML, CSS, Flex-развертка</p>
+            <a
+              href="https://drive.google.com/drive/folders/1ZF28cxeA0wPFhXnVtTYNz-YLHUYqBZgr?usp=sharing"
+              target="_blank"
+              class="btn btn-orange"
+              >Смотреть</a
+            >
+          </div>
+        </div>
+
+        </div>
+      </section>
+
+      <!-- ОПЫТ -->
+      <section id="experience" class="section highlight">
+        <div class="container">
+          <h2>Опыт работы</h2>
+        <table class="experience-table">
+          <thead>
+            <tr>
+            <th>Год</th>
+            <th>Должность</th>
+            <th>Компания</th>
+            </tr>
+          </thead>
+          <tbody>
+          <tr>
+            <td>2025 – настоящее время</td>
+            <td>Frontend-разработчик (учебный проект)</td>
+            <td>РЭУ им. Г.В. Плеханова</td>
+          </tr>
+          <tr>
+            <td>2025</td>
+            <td>QA Engineer</td>
+            <td>ITX</td>
+          </tr>
+          <tr>
+            <td>2024 – 2025</td>
+            <td>QA Engineer (проектная деятельность)</td>
+            <td>RedRover.school</td>
+          </tr>
+          </tbody>
+        </table>
+        </div>
+      </section>
+
+      <!-- КОНТАКТЫ -->
+      <section id="contacts" class="section highlight">
+        <div class="container">
+          <h2>Давай знакомиться!</h2>
+        <form id="contact-form">
+          <input type="text" placeholder="Ваше имя" required />
+          <input type="email" placeholder="Ваш email" required />
+          <textarea placeholder="Сообщение" required></textarea>
+          <button type="submit" class="btn btn-submit">Отправить</button>
+        </form>
+        <p class="contacts">
+          <a class="btn btn-green" href="mailto:2gerasimova@mail.ru">Email</a>
+          <a class="btn" href="https://t.me/hello_galina" target="_blank"
+            >Telegram</a
+          >
+          <a class="btn btn-github" href="https://github.com/helloGalina" target="_blank"
+            >GitHub</a
+          >
+        </p>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner">
+        <p>© <span id="year"></span> Галя Герасимова – Frontend-разработчик</p>
+      </div>
+    </footer>
+
+    <script src="main.js"></script>
+    <a href="#hero" class="btn back-to-top">Наверх</a>
+  </body>
+</html>
